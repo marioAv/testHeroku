@@ -5,13 +5,38 @@
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<h1 text-sm-center>This is a test app</h1>
+<ion-grid no-padding style="background-color:red;">
+  <ion-row> 
+
+      <ion-col text-center style="background-color:blue;"> My Projects</ion-col>
+
+    </ion-row>
+
+     <ion-row>
+    <ion-col col-8 style="background-color:white;"> Project 1</ion-col>
+    <ion-col style="background-color:gray;"> Project 2</ion-col>
+    <ion-col style="background-color:gainsboro;"> Project 3</ion-col>
+    </ion-row>
+
+</ion-grid>
+<ion-grid>
+  <ion-row>
+    <ion-col col-12 col-sm text-center>One</ion-col>
+    <ion-col col-12 col-sm text-center>Two</ion-col>
+    <ion-col col-12 col-sm text-center>Three</ion-col>
+    <ion-col col-12 col-sm text-center>Four</ion-col>
+  </ion-row>
+</ion-grid>
+
+<ion-grid>
+    <ion-row>
+      <ion-col col-3 push-9>
+        1 of 2
+      </ion-col>
+      <ion-col col-9 pull-3>
+        2 of 2
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
